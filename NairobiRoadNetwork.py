@@ -74,7 +74,7 @@ G.add_edge("Kilimani","J12",weight="2.3")
 #section
 G.nodes["Karen"]['pos']=(0,0)
 G.nodes["J6"]['pos']=(0,4)
-G.nodes["J1"]['pos']=(1,-3)
+G.nodes["J1"]['pos']=(0,-5)
 G.nodes["J4"]['pos']=(4,-3)
 G.nodes["J7"]['pos']=(0,6)
 G.nodes["Gitaru"]['pos']=(-3,4)
