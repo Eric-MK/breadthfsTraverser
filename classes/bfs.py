@@ -18,7 +18,7 @@ class BfsTraverser:
       # dequeued vertex s (i.e. expand the node).
       # If an adjacent node has not been visited, then mark 
       # it visited and enqueue it (i.e. add to visited list)
-      for i in list(graph[s]):
+      for i in list(graph[s]): #The list(graph[s]) part retrieves a list of neighbors connected to node s.
         if i not in self.visited:
           #print ("Command; Drive from ",s," to " ,i, " Estate/Junction", end = "\n") 
           #print("Current Node is",i, " but the goal Node is ",goal_node)
